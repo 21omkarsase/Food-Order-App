@@ -5,13 +5,21 @@
   margin: 2rem auto;
   animation: meals-appear 1s ease-out forwards;
 }
-
+.mealsLoading {
+  text-align: center;
+  color: white;
+}
 .meals ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
+.httpError {
+  text-align: center;
+  color: red;
+  font-size: 37px;
+  letter-spacing: 3px;
+}
 @keyframes meals-appear {
   from {
     opacity: 0;
